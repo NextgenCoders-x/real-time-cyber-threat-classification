@@ -1,0 +1,42 @@
+# Datasets — large, auto-downloaded
+data/*.csv
+data/*.txt
+data/*.zip
+data/*.gz
+data/*.pcap
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environments
+venv/
+.venv/
+
+# Source control
+.git/
+
+# Diagnostic Scripts
+diagnose.py
+diagnose_v*.py
+diagnose_audit.py
+
+# Temporary and Cache files
+*.tmp
+*.temp
+.pytest_cache/
+.coverage
+*.log
+
+# Reports
+reports/*.pdf
+reports/*.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
